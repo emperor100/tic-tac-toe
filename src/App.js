@@ -5,7 +5,32 @@ import Board from './Components/Board/Board'
 
 function App() {
   return (
-    <Board />
+    <div>
+      <div>
+        <p>
+          First Board
+        </p>
+      </div>
+      <div>
+        <Board />
+      </div>
+      <div>
+        <p>
+          Second Board
+        </p>
+      </div>
+      <div>
+        <Board />
+      </div>
+      <div>
+        <p>
+          Third Board
+        </p>
+      </div>
+      <div>
+        <Board />
+      </div>
+    </div>
   );
 }
 
