@@ -8,7 +8,7 @@ export default class Display extends React.Component{
   render(){
     return(
       <div>
-        <span> Counter value is {this.props.counter}</span>
+        <span> Time Left: {this.props.timer} sec</span>
       </div>
     )
   }
